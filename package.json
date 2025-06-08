@@ -1,7 +1,16 @@
 {
-  "name": "insurance-report-analyzer",
-  "version": "0.1.0",
-  "private": true,
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      "\u003e0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
   "dependencies": {
     "@chatscope/chat-ui-kit-react": "^1.10.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -9,7 +18,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
     "convertapi-js": "^1.0.8",
-    "react": "^18.2.0",
+    "react": "18.3.1",
     "react-dom": "^18.2.0",
     "react-pdf": "^7.1.2",
     "react-redux": "^8.1.1",
@@ -19,28 +28,19 @@
     "styled-components": "^6.0.0-rc.5",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "name": "insurance-report-analyzer",
+  "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "version": "0.1.0"
 }
